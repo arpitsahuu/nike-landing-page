@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241,241,241);
+}
+nav{
+    width: 100%;
+    height: 10%;
+    padding: 0 50px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul li{
+    margin-right: 35px;
+
+}
+nav ul li img{
+    height: 80px;
+}
+#ul1 li:hover{
+    text-decoration: 2px underline;
+
+}
+
+#ul2 li i{
+    font-size: 22px;
+}
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+
+}
+.left{
+    width: 40%;
+    height: 100%;
+    padding: 100px 100px;
+}
+.left h6{
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.left h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.left p{
+    color: #565656;
+    margin-bottom: 40px;
+}
+.left button{
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+.right{
+    /* background-color: red; */
+    height: 100%;
+    width: 60%;
+    position: relative;
+    padding: 110px 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    height: 410px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.img {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    top: 28%;
+    opacity: 1;
+
+}
+.img2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+   
+}
+.elem h4{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(214, 214, 214);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.elem h5{
+    position: absolute;
+    right: 0;
+    bottom: 41px;
+    padding:12px 20px ;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
